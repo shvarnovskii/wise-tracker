@@ -13,7 +13,6 @@ const AddActivityForm = ({ getNewActivity }) => {
 		e.preventDefault();
 
 		if (start && finish && distance && type) {
-			setBtnDisable(false);
 			let date = new Date(),
 				startDate = new Date(
 					date.toISOString().split('T')[0] + `T${start}:00.000Z`

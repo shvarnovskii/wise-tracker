@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	header {
+		background-color: $blue_D;
+		color: $white;
+		padding: 10px 40px;
+		vertical-align: middle;
+		text-align: center;
+		border-radius: 10px;
+		h1 {
+			font-weight: 500;
+		}
+	}
+	.content-area {
+		display: flex;
+		align-items: flex-start;
+	}
+}

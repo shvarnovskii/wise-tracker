@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+tr {
+	height: 60px;
+	background-color: $gray_DL;
+	td {
+		text-align: center;
+	}
+	&:nth-child(2n) {
+		background: none;
+	}
+	&:hover {
+		background-color: $gray_D;
+		cursor: pointer;
+	}
+}
